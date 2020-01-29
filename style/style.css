@@ -1,0 +1,389 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin:5px;
+}
+.header{
+    width: 100%;
+    height: 60px;
+/*    border: 1px solid grey;*/
+    border-radius: 2px;
+    box-shadow: 1px 1px 6px black;
+    display: block;
+    background: white;
+}
+
+.header-text-box{
+    width: 20%;
+    height: 100%;
+/*    border: 1px solid grey;*/
+    border-radius : 2px;
+    float: left;
+    display: block;
+}
+
+.header-text-box-content{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 100%;
+}
+
+.header-action-button-box{
+    width: auto%;
+    height: inherit;
+    float: right;
+/*    border: 1px solid black;*/
+    text-align: left;
+    padding: 00px;
+}
+
+.header-action-button-box-content{
+    padding: 20px;
+    font-family:monospace;
+    font-size: 18px;
+    text-align: right;
+    color: black;
+}
+
+.header-action-button-box-content a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.user-registration-form{
+    border: 1px solid red;
+}
+
+/*home.php*/
+
+.grid{
+    width: 100%;
+    height: auto;
+/*    border: 1px solid black;*/
+    float: left;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+.grid-box{
+    width: 200px;
+    height: 180px;
+    border: 1px solid gray;
+    float: left;
+    display: block;
+    margin: 30px;
+    padding: 10px;
+}
+
+.grid-box:hover{
+/*    border: 1px dotted gray;*/
+    box-shadow: 0.5px 0.5px 1px black;
+}
+
+.grid-box-header{
+    height: 20%;
+    width: 100%;
+/*    border: 1px solid red;   */
+    text-align: center;
+    overflow: hidden;
+}
+
+.grid-box-image{
+    height: 60%;
+    width: 100%;
+/*    border: 1px solid red;   */
+    text-align: center;
+}
+
+.grid-box-image img{
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.grid-box-bottom{
+    height: 20%;
+    width: 100%;
+/*    border: 1px solid red;   */
+    text-align: center;
+}
+
+.grid-box-bottom button{
+    height: 60%;
+    width: 30%;
+    margin: 5px;
+    font-family: monospace;
+}
+
+.grid-box-bottom button:hover{
+    font-weight: bold;
+    border: 2px solid black;
+    margin-top: 2px;
+}
+
+/*home.php*/
+
+/*Login Form*/
+.login-form-parent-box{
+    width:100%;
+    height: auto;
+/*    border: 1px solid black;*/
+    margin-top: 0px;
+    float: left;
+}
+
+.login-form-container{
+    width:50%;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.login-form-container .form-group{
+    width: 80%;
+    margin: auto;
+}
+/*Login Form*/
+
+/*Restaurant Registraion Page*/
+
+.restaurant-reg-form-container{
+    width: 100%;
+    height: auto;
+    border: 1px solid blue;
+    float: left;
+    margin-top: 10px;
+}
+
+.restaurant-reg-form{
+    height: auto;
+    width: 60%;
+    margin: auto;
+    border: 1px solid red;
+    padding: 2%;
+    float: left;
+}
+
+.restaurant-reg-form form-group{
+    width: 60%;
+}
+
+.restaurant-reg-form-rules-box{
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+/*Restaurant Registraion Page*/
+
+/*Restaurant Dashboard Page*/
+
+.rest-dash-menu{
+    width: 100%;
+    height: 35px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.rest-dash-menu-item{
+    width:auto;
+    height: 100%;
+    border: 1px solid white;
+    float: left;
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 5px;
+}
+
+.rest-dash-menu-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.rest-dash-menu-item:hover{
+    border: 1px dotted red;
+    color: azure;
+    cursor: pointer;
+}
+
+.rest-dash-container{
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+    margin-top: 10px;
+    float: left;
+    overflow-x: scroll;
+}
+
+.rest-dash-add-item-container{
+    width: 45%;
+    height: auto;
+    border: 1px solid blue;
+    margin: 10px;
+    float: left;
+}
+
+.rest-dash-add-item-box{
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+    font-family: monospace;
+}
+
+.rest-dash-add-item-box form{
+    width: 60%;
+    margin: auto;
+}
+
+.rest-dash-current-menu{
+    width: 45%;
+    height: auto;
+    border: 1px solid red;
+    float: left;
+    margin: 10px;
+}
+
+.rest-dash-current-menu-child{
+/*    border: 1px solid green;*/
+    margin-top: 10px;
+    overflow-x: scroll;
+}
+
+.rest-dash-current-orders{
+    width: 45%;
+    height: auto;
+    border: 1px solid blue;
+    float: left;
+    margin: 10px;
+}
+
+/*Restaurant Dashboard Page*/
+
+/*Item discription  page*/
+
+.item-description-container{
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    float: left;
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.item-description-box{
+    width: 60%;
+    height: auto;
+/*    border: 1px solid green;*/
+    float: left;
+}
+
+.item-description-sidebar{
+    width: 30%;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    float: right;
+}
+
+.item-description-box-image{
+    width: 90%;
+    height: auto;
+/*    border: 1px solid black;*/
+    margin: auto;
+}
+
+.item-description-box-image img{
+    width: 40%;
+    height: 30%;
+    margin: auto;
+}
+
+.item-description-box-content{
+    width: 70%;
+    height: 190px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+    overflow: scroll;
+}
+
+.item-description-box-content-title{
+    font-weight: 400;
+    font-family: fantasy;
+}
+
+.item-description-box-content-desc{
+    font-family: monospace;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+/*Item discription  page*/
+
+
+/*Registration Page*/
+
+.reg-container{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    float: left;
+}
+
+.reg-container-box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    border: 1px solid darkblue;
+}
+
+.reg-container-box-card{
+    width: 70%;
+    height: 70%;
+    display: block;
+    border: 1px solid red;
+    margin: auto;
+    padding: 20px;
+}
+
+.reg-container-box-card img{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+/*Registration Page*/
+
+
+/*Customer Registration Page*/
+
+.user-registration-page{
+    width: 100%;
+    height: 600px;
+    border: 1px solid teal;
+    float: left;
+}
+
+.user-registration-form{
+    width: 60%;
+    height: auto;
+    border: 1px solid grey;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*Customer Registration Page*/
